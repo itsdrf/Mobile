@@ -34,6 +34,10 @@
       {
         "src": "assets/icons/android/android-launchericon-96-96.png",
         "sizes": "96x96"
+      },
+      {
+        "src": "assets/AppIcons/playstore.png",
+        "sizes": "512x512"
       }
     ],
     "prefer_related_applications": false,

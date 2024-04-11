@@ -130,7 +130,7 @@ header {
 }
 
 .section-subtitle {
-  font-size: 2.1875rem;
+  font-size: 1rem;
 }
 #testimonials {
   min-height: calc(100vh - 91px);
@@ -141,13 +141,10 @@ header {
 
 }
 
-#testimonial_chef {
-  width: 500px;
-  height: auto;
-}
+
 
 #testimonials .section-subtitle {
-  font-size: 2rem;
+  font-size: 1rem;
 }
 
 #testimonials_content {
@@ -181,6 +178,7 @@ header {
 
 .feedback-content p {
   display: flex;
+  font-size: 12px;
   justify-content: space-between;
 }
 
@@ -203,7 +201,7 @@ header {
   }
 
   #testimonials_content {
-      width: 70%;
+      width: 50%;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -227,7 +225,7 @@ header {
 
 #imgg{
   display: flex;
-  width: 400px;
+  width: 350px;
   margin-top: 30px;
   margin-left: 15px;
 }
@@ -255,4 +253,10 @@ header {
 .mapBox iframe{
   width: 100%;
   height: 100%;
+}
+
+.slogan-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
