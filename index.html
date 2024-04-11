@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <link rel="stylesheet" type="text/css" href="main.css">
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#c93e8b">
+  <meta name="description" content="Site para voluntariados">
+  <script src="app.js"></script>
+  <title>VoluntaZone</title>
+</head>
+<body>
+  <header>
+    <nav class="nav-bar">
+      <div class="logo">
+          <h1>Volunta Zone</h1>
+      </div>
+      <div class="nav-list">
+          <ul>
+              <li class="nav-item"><a href="#" class="nav-link">Início</a></li>
+              <li class="nav-item"><a href="#" class="nav-link">Projetos</a></li>
+              <li class="nav-item"><a href="#" class="nav-link">Sobre</a></li>
+          </ul>
+      </div>
+      <div class="login-button">
+          <button><a href="#">Entrar</a></button>
+      </div>
+
+      <div class="mobile-menu-icon">
+          <button onclick="menuShow()"><img class="icon" src="./assets/menu_white_36dp.svg" alt=""></button>
+      </div>
+  </nav>
+  <div class="mobile-menu">
+      <ul>
+          <li class="nav-item"><a href="#" class="nav-link">Início</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Projetos</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Sobre</a></li>
+      </ul>
+
+      <div class="login-button">
+          <button><a href="#">Se voluntarie aqui!</a></button>
+      </div>
+  </div>
+  </header>
+
+
+  
+  <div id="informes">
+    <img src="./assets/1.jpg"  alt="voluntariados" id="imgg">
+    <h2 id="slogan">
+      Onde a solidariedade encontra seu lugar.
+    </h2>
+
+    <h2 id="need">Veja o local mais próximo de você onde precisamos de voluntariados:</h2>
+    <div class="mapBox">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d4379.951303311593!2d-46.60966928112354!3d-23.58322793679167!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1651105282919!5m2!1spt-BR!2sbr"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+  </div>
+
+  <section id="testimonials">
+    
+
+    <div id="testimonials_content">
+        <h2 class="section-title">
+            Depoimentos
+        </h2>
+        <h3 class="section-subtitle">
+            O que os voluntariados falam sobre nós?
+        </h3>
+
+        <div id="feedbacks">
+            <div class="feedback">
+                <img src="./assets/avatar.png" class="feedback-avatar" alt="Juliana">
+
+                <div class="feedback-content">
+                    <p>
+                        Juliana
+                        <span>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </span>
+                    </p>
+                    <p>
+                        "Participar do Volunta Zone foi uma jornada transformadora, onde pude conhecer pessoas
+                        incrivéis e contribuir para causas importantes, impactando positivamente a vida dos outros."
+                    </p>
+                </div>
+            </div>
+
+            <div class="feedback">
+                <img src="./assets/avatar.png" class="feedback-avatar" alt="Jéssica">
+
+                <div class="feedback-content">
+                    <p>
+                        Jéssica
+                        <span>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </span>
+                    </p>
+                    <p>
+                        "O Volunta Zone proporcionou uma expreriência incrivél de voluntariado, conectando-me
+                        diretamente com projetos locais e permitindo-me fazer a diferença na minha comunidade."
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <button class="btn-default">
+            Ver mais avaliações
+        </button>
+    </div>
+</section>
+
+</body>
+</html>
